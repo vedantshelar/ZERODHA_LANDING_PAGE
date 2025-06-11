@@ -1,0 +1,40 @@
+#footerMainContainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: rgb(251, 251, 251);
+    width: 100vw;
+    padding: 30px 100px;
+}
+
+#footerImgContainer{
+    display: flex;
+    flex-direction: column;
+}
+#footerImgContainer > img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+#footerImgContainer > span{
+    color: rgba(0, 0, 0, 0.762);
+    font-size: 0.8rem;
+}
+
+.footerInfoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerInfoContainer > h3{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.762);
+    margin-bottom: 15px;
+}
+
+
+.footerInfoContainer > .footerInfoContainerLinks{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.762);
+    margin-bottom: 5px;
+    line-height: 2;
+    text-decoration: none;
+}

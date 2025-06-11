@@ -1,0 +1,54 @@
+#pricingMainContainer{
+    width: 100vw;
+    padding: 20px 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pricingInfoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 80px;
+    color: rgba(0, 0, 0, 0.762);
+    row-gap: 15px;
+}
+#pricingInfoContainer > h1{
+    font-size: 2.2rem;
+}
+
+#pricingLink{
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#pricingNumbersContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.pricingNumberBox{
+    display: flex;
+    width: 31%;
+}
+
+.pricingNumberBox > img{
+    width: 150px;
+    align-self: flex-start;
+}
+
+.pricingNumberBox > p{
+    font-size: 0.6rem;
+    align-self: flex-end;
+    transform: translateX(-20px);
+}

@@ -1,0 +1,292 @@
+#navBarMainContainer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 65px;
+    box-shadow: 0px 2px 5px rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+#navBarLogoContainer>img {
+    width: 150px;
+}
+
+#navItemsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    column-gap: 40px;
+}
+
+#deskTopView {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+    height: 100%;
+    padding-top: 13px;
+}
+
+.navItems {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.642);
+    transition: all 0.3s;
+}
+
+.navItems:hover {
+    color: rgba(0, 106, 212, 0.642);
+}
+
+#navControlsContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#navControlsContainer>i {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.642);
+    cursor: pointer;
+}
+
+#mobileView {
+    position: absolute;
+    top: 65px;
+    right: 210px;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(238, 238, 238);
+    width: 700px;
+    padding: 20px 20px;
+}
+
+#mobileViewContainer1 {
+    display: none;
+}
+
+.mobileViewContainer2Box.mobileViewContainer2BoxHidden {
+    display: none;
+}
+
+#mobileViewContainer2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mobileViewContainer2Box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.mobileViewContainer2Box>img {
+    width: 50px;
+}
+
+.mobileViewContainer2Box>span:nth-child(2) {
+    color: rgba(0, 0, 0, 0.762);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.mobileViewContainer2Box>span:nth-child(3) {
+    color: rgba(0, 0, 0, 0.452);
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+#mobileViewContainer3 {
+    background-color: rgba(244, 244, 244, 0.38);
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#mobileViewContainer3>div:nth-child(1),
+#mobileViewContainer3>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#mobileViewContainer3>div:nth-child(1)>h4,
+#mobileViewContainer3>div:nth-child(2)>h4 {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+#mobileViewContainer3>div:nth-child(1)>.navItems,
+#mobileViewContainer3>div:nth-child(2)>.navItems {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+#mobileViewContainer3>div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#mobileViewContainer4EducationContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+#mobileViewContainer4EducationContainer>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+#mobileViewContainer4EducationContainer>div>img {
+    width: 30px;
+    height: 30px;
+}
+
+#mobileViewContainer4EducationContainer>div>h4 {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+#mobileViewContainer4EducationContainer>div>span {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width:950px) {
+    #navBarMainContainer {
+        justify-content: space-between;
+        padding: 0px 20px;
+        width: 100vw;  
+    }
+
+    #deskTopView {
+        display: none;
+    }
+
+    #mobileView {
+        position: absolute;
+        top: 65px;
+        right: 0px;
+        z-index: 100;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px rgb(238, 238, 238);
+        width: 100vw;
+        padding: 20px 20px;
+        top: 0px;
+    }
+    
+    #mobileViewContainer1 {
+        display: grid;
+        padding: 20px 20px;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        border-bottom: 1px solid rgb(224, 224, 224);
+        font-size: 0.9rem;
+    }
+    
+    .mobileViewContainer2Box.mobileViewContainer2BoxHidden {
+        display: none;
+    }
+
+    .mobileViewContainer2BoxHidden > img{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    #navControlsContainer {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    #navControlsContainer>i {
+        position: relative;
+        font-size: 1.5rem;
+        color: rgba(0, 0, 0, 0.642);
+        cursor: pointer;
+        z-index: 200;
+    }
+
+    .mobileViewContainer2Box.mobileViewContainer2BoxHidden {
+        display: flex;
+    }
+    
+    #mobileViewContainer2 {
+        width: 100%;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+    }
+    
+    .mobileViewContainer2Box {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        align-items: center;
+    }
+    
+    .mobileViewContainer2Box>img {
+        width: 40px;
+    }
+    
+    .mobileViewContainer2Box>span:nth-child(2) {
+        font-size: 0.8rem;
+    }
+    
+    .mobileViewContainer2Box>span:nth-child(3) {
+        display: none;
+    }
+    
+    #mobileViewEducationMainContainer{
+      display: none !important;
+    }
+
+    #mobileViewContainer3 {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 10px;
+        justify-content: flex-start;
+        column-gap: 150px;
+    }
+
+    #mobileViewContainer3>div:nth-child(1),
+#mobileViewContainer3>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#mobileViewContainer3>div:nth-child(1)>h4,
+#mobileViewContainer3>div:nth-child(2)>h4 {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+#mobileViewContainer3>div:nth-child(1)>.navItems,
+#mobileViewContainer3>div:nth-child(2)>.navItems {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+}

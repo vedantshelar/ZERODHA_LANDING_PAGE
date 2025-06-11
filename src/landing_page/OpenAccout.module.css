@@ -1,0 +1,34 @@
+
+#openAccountMainContainer{
+    width: 100vw;
+    padding: 20px 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.762);
+    row-gap: 20px;
+}
+
+#openAccountMainContainer > h1{
+    font-size: 2.3rem;
+}
+
+#openAccountMainContainer > button{
+    width: 250px;
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: rgba(2, 105, 189, 0.78);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.2s;
+    margin-top: 10px;
+}
+
+#openAccountMainContainer > button:hover{
+    background-color: rgba(11, 19, 26, 0.78);
+color: rgb(241, 241, 241);
+}
+

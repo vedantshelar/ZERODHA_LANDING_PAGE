@@ -1,0 +1,45 @@
+#teamMainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    width: 100vw;
+    padding: 20px 200px;
+    margin-bottom: 50px;
+}
+
+#teamProfileContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teamProfileContainer > img{
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#teamProfileContainer > p:nth-child(2){
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.762);
+    font-weight: 500;
+}
+
+#teamProfileContainer > p:nth-child(3){
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.586);
+}
+
+#teamInfoContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    color: rgba(0, 0, 0, 0.586);
+    align-self: flex-start;
+}
+
+#teamInfoContainer > h3{
+    font-size: 2rem;
+    font-weight: 600;
+}

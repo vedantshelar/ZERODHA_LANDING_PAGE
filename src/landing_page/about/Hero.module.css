@@ -1,0 +1,33 @@
+#heroMainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#heroContainer1{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 100px 5px;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.498);
+}
+
+#heroContainer1 > h1{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+#heroContainer2{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 100px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+#heroContainer2 > div{
+    text-align: start;
+    color: rgba(0, 0, 0, 0.762);
+}
