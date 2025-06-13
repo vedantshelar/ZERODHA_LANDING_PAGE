@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from './Hero';
 
 function PricingPage() {
     return ( 
         <div>
-            <h1>Pricing Page</h1>
+            <Hero />
         </div>
      );
 }

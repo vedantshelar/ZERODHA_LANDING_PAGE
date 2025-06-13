@@ -1,0 +1,64 @@
+#universeMainContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100vw;
+    padding: 50px 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#universeHeroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.762);
+    row-gap: 15px;
+}
+
+#universeHeroSection > h3{
+    font-size: 2.2rem;
+}
+
+#universeProductSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70vw;
+    gap: 50px;
+    padding: 30px 0px;
+}
+
+.universeProductBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.universeProductBox > img{
+    width: 200px;
+    height: 60px;
+}
+
+.universeProductBox > p{
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.421);
+}
+
+#universeBtnSection > button{
+    width: 250px;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(2, 105, 189, 0.78);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+#universeBtnSection > button:hover{
+    background-color: rgba(11, 19, 26, 0.78);
+    color: rgb(241, 241, 241);
+}

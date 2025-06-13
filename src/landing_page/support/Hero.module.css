@@ -1,0 +1,83 @@
+#heroMainContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+    background-color: rgba(31, 114, 216, 0.942);
+    color: white;
+}
+
+#heroContainer1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#heroContainer1 > span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+#heroContainer1 > a{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.876);
+}
+
+#heroContainer2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#heroContainer2Box1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-right: 20px;
+}
+
+#heroContainer2Box1 > p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#heroContainer2Box1 > input{
+   padding: 15px 10px;
+   font-size: 1.1rem;
+   border-radius: 2px;
+   border: none;
+   margin-bottom: 5px;
+}
+
+#heroContainer2Box1  a{
+    display: inline-block;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#heroContainer2Box2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px 40px;
+}
+
+#heroContainer2Box2 > h3{
+    font-size: 1.4rem;
+}
+
+#heroContainer2Box2 li a{
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 15px;
+}

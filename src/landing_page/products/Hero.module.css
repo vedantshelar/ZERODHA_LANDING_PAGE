@@ -1,0 +1,25 @@
+#HeroMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    padding: 120px 10px;
+    width: 90vw;
+    margin: 20px auto;
+    border-bottom: 1px solid rgba(216, 216, 216, 0.629);
+    color: rgba(0, 0, 0, 0.762);
+}
+
+#HeroMainContainer > h1{
+font-size: 3rem;
+}
+
+#HeroMainContainer > p:nth-child(2){
+    font-size: 1.2rem;
+}
+#HeroMainContainer > p:nth-child(3){
+    font-size: 1rem;
+}
+#heroLink{
+    text-decoration: none;
+}

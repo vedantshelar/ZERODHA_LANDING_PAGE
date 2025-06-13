@@ -17,7 +17,7 @@ function Navbar() {
             </div>
             <nav id={styles.navItemsContainer}>
                 <ul id={styles.deskTopView}>
-                    <NavLink to={"/signup"} className={styles.navItems} href="#">Signup</NavLink>
+                <a className={styles.navItems} href="/register">Signup</a>
                     <NavLink to={"/about"} className={styles.navItems} href="#">About</NavLink>
                     <NavLink to={"/products"} className={styles.navItems} href="#">Products</NavLink>
                     <NavLink to={"/pricing"} className={styles.navItems} href="#">Pricing</NavLink>
@@ -25,18 +25,18 @@ function Navbar() {
                 </ul>
                 <ul id={styles.mobileView} style={{ display: isShown ? "block" : "none" }}>
                     <div id={styles.mobileViewContainer1}>
-                    <NavLink to={"/signup"} className={styles.navItems} href="#">Signup</NavLink>
-                    <NavLink to={"/about"} className={styles.navItems} href="#">About</NavLink>
-                    <NavLink to={"/products"} className={styles.navItems} href="#">Products</NavLink>
-                    <NavLink to={"/pricing"} className={styles.navItems} href="#">Pricing</NavLink>
-                    <NavLink to={"/support"} className={styles.navItems} href="#">Support</NavLink>
+                    <a className={styles.navItems} href="/register">Signup</a>
+                    <NavLink to={"/about"} className={styles.navItems} >About</NavLink>
+                    <NavLink to={"/products"} className={styles.navItems} >Products</NavLink>
+                    <NavLink to={"/pricing"} className={styles.navItems} >Pricing</NavLink>
+                    <NavLink to={"/support"} className={styles.navItems} >Support</NavLink>
                     </div>
                     <div id={styles.mobileViewContainer2}>
-                        <div className={styles.mobileViewContainer2Box}>
+                        <a href="https://google.com" className={styles.mobileViewContainer2Box} style={{textDecoration:"none"}}>
                             <img src="media/images/kiteLogo.svg" alt="" />
                             <span>Kite</span>
                             <span>Trading Platform</span>
-                        </div>
+                        </a>
                         <div className={styles.mobileViewContainer2Box}>
                             <img src="media/images/consoleLogo.svg" alt="" />
                             <span>Console</span>

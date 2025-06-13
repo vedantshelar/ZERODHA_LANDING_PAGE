@@ -1,0 +1,46 @@
+.leftSectionMainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.leftSectionImgContainer{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.leftSectionImgContainer > img{
+    width: 100%;
+}
+
+.leftSectionInfoContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.762);
+    padding: 5px 100px;
+}
+
+.leftSectionInfoContainer > h3{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.leftSectionLinksContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    margin-bottom: 25px;
+}
+.leftSectionLinks{
+    text-decoration: none;
+}
+
+.leftSectionImgLinksContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
