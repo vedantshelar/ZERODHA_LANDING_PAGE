@@ -9,7 +9,7 @@ function Hero() {
             <div id={styles.heroInfoContainer}>
                 <h1>Invest in everything</h1>
                 <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-                <button>Sign up for free</button>
+                <button><a style={{textDecoration:"none",color:"white"}} href="https://zerodha-dashboard-web.netlify.app">Sign up for free</a></button>
             </div>
         </div>
      );

@@ -17,22 +17,22 @@ function Navbar() {
             </div>
             <nav id={styles.navItemsContainer}>
                 <ul id={styles.deskTopView}>
-                <a className={styles.navItems} href="/register">Signup</a>
-                    <NavLink to={"/about"} className={styles.navItems} href="#">About</NavLink>
-                    <NavLink to={"/products"} className={styles.navItems} href="#">Products</NavLink>
-                    <NavLink to={"/pricing"} className={styles.navItems} href="#">Pricing</NavLink>
-                    <NavLink to={"/support"} className={styles.navItems} href="#">Support</NavLink>
+                <a className={styles.navItems} href="https://zerodha-dashboard-web.netlify.app">Signup</a>
+                    <NavLink to={"/about"} className={styles.navItems} >About</NavLink>
+                    <NavLink to={"/products"} className={styles.navItems} >Products</NavLink>
+                    <NavLink to={"/pricing"} className={styles.navItems} >Pricing</NavLink>
+                    <NavLink to={"/support"} className={styles.navItems}>Support</NavLink>
                 </ul>
                 <ul id={styles.mobileView} style={{ display: isShown ? "block" : "none" }}>
                     <div id={styles.mobileViewContainer1}>
-                    <a className={styles.navItems} href="/register">Signup</a>
+                    <a className={styles.navItems} href="https://zerodha-dashboard-web.netlify.app">Signup</a>
                     <NavLink to={"/about"} className={styles.navItems} >About</NavLink>
                     <NavLink to={"/products"} className={styles.navItems} >Products</NavLink>
                     <NavLink to={"/pricing"} className={styles.navItems} >Pricing</NavLink>
                     <NavLink to={"/support"} className={styles.navItems} >Support</NavLink>
                     </div>
                     <div id={styles.mobileViewContainer2}>
-                        <a href="https://google.com" className={styles.mobileViewContainer2Box} style={{textDecoration:"none"}}>
+                        <a href="https://zerodha-dashboard-web.netlify.app" className={styles.mobileViewContainer2Box} style={{textDecoration:"none"}}>
                             <img src="media/images/kiteLogo.svg" alt="" />
                             <span>Kite</span>
                             <span>Trading Platform</span>
@@ -64,17 +64,17 @@ function Navbar() {
                     <div id={styles.mobileViewContainer3}>
                         <div>
                             <h4>Utilities</h4>
-                            <a className={styles.navItems} href="#">Calculators</a>
-                            <a className={styles.navItems} href="#">Brokerage Calculator</a>
-                            <a className={styles.navItems} href="#">Margin Calculator</a>
-                            <a className={styles.navItems} href="#">SIP Calculator</a>
+                            <a className={styles.navItems} >Calculators</a>
+                            <a className={styles.navItems} >Brokerage Calculator</a>
+                            <a className={styles.navItems} >Margin Calculator</a>
+                            <a className={styles.navItems} >SIP Calculator</a>
                         </div>
                         <div>
                             <h4>Updates</h4>
-                            <a className={styles.navItems} href="#">Z-Connect blog</a>
-                            <a className={styles.navItems} href="#">Circulars / Bulletin</a>
-                            <a className={styles.navItems} href="#">IPOs</a>
-                            <a className={styles.navItems} href="#">Markets</a>
+                            <a className={styles.navItems} >Z-Connect blog</a>
+                            <a className={styles.navItems} >Circulars / Bulletin</a>
+                            <a className={styles.navItems} >IPOs</a>
+                            <a className={styles.navItems} >Markets</a>
                         </div>
                         <div id={styles.mobileViewEducationMainContainer}>
                             <h4>Education</h4>
